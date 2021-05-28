@@ -491,6 +491,518 @@ turtlebot3_simulations/turtlebot3_simulations/preinstall:
 .PHONY : turtlebot3_simulations/turtlebot3_simulations/preinstall
 
 #=============================================================================
+# Directory level rules for directory bibliotebot_vision
+
+# Convenience name for "all" pass in the directory.
+bibliotebot_vision/all:
+
+.PHONY : bibliotebot_vision/all
+
+# Convenience name for "clean" pass in the directory.
+bibliotebot_vision/clean: bibliotebot_vision/CMakeFiles/roscpp_generate_messages_py.dir/clean
+bibliotebot_vision/clean: bibliotebot_vision/CMakeFiles/roscpp_generate_messages_eus.dir/clean
+bibliotebot_vision/clean: bibliotebot_vision/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
+bibliotebot_vision/clean: bibliotebot_vision/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
+bibliotebot_vision/clean: bibliotebot_vision/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
+bibliotebot_vision/clean: bibliotebot_vision/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
+bibliotebot_vision/clean: bibliotebot_vision/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean
+bibliotebot_vision/clean: bibliotebot_vision/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
+bibliotebot_vision/clean: bibliotebot_vision/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
+bibliotebot_vision/clean: bibliotebot_vision/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean
+bibliotebot_vision/clean: bibliotebot_vision/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
+bibliotebot_vision/clean: bibliotebot_vision/CMakeFiles/std_msgs_generate_messages_eus.dir/clean
+bibliotebot_vision/clean: bibliotebot_vision/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean
+bibliotebot_vision/clean: bibliotebot_vision/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean
+bibliotebot_vision/clean: bibliotebot_vision/CMakeFiles/std_msgs_generate_messages_py.dir/clean
+
+.PHONY : bibliotebot_vision/clean
+
+# Convenience name for "preinstall" pass in the directory.
+bibliotebot_vision/preinstall:
+
+.PHONY : bibliotebot_vision/preinstall
+
+#=============================================================================
+# Target rules for target bibliotebot_vision/CMakeFiles/roscpp_generate_messages_py.dir
+
+# All Build rule for target.
+bibliotebot_vision/CMakeFiles/roscpp_generate_messages_py.dir/all:
+	$(MAKE) -f bibliotebot_vision/CMakeFiles/roscpp_generate_messages_py.dir/build.make bibliotebot_vision/CMakeFiles/roscpp_generate_messages_py.dir/depend
+	$(MAKE) -f bibliotebot_vision/CMakeFiles/roscpp_generate_messages_py.dir/build.make bibliotebot_vision/CMakeFiles/roscpp_generate_messages_py.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/edu/bibliotebot_burguer/build/CMakeFiles --progress-num= "Built target roscpp_generate_messages_py"
+.PHONY : bibliotebot_vision/CMakeFiles/roscpp_generate_messages_py.dir/all
+
+# Build rule for subdir invocation for target.
+bibliotebot_vision/CMakeFiles/roscpp_generate_messages_py.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 bibliotebot_vision/CMakeFiles/roscpp_generate_messages_py.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
+.PHONY : bibliotebot_vision/CMakeFiles/roscpp_generate_messages_py.dir/rule
+
+# Convenience name for target.
+roscpp_generate_messages_py: bibliotebot_vision/CMakeFiles/roscpp_generate_messages_py.dir/rule
+
+.PHONY : roscpp_generate_messages_py
+
+# clean rule for target.
+bibliotebot_vision/CMakeFiles/roscpp_generate_messages_py.dir/clean:
+	$(MAKE) -f bibliotebot_vision/CMakeFiles/roscpp_generate_messages_py.dir/build.make bibliotebot_vision/CMakeFiles/roscpp_generate_messages_py.dir/clean
+.PHONY : bibliotebot_vision/CMakeFiles/roscpp_generate_messages_py.dir/clean
+
+# clean rule for target.
+clean: bibliotebot_vision/CMakeFiles/roscpp_generate_messages_py.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target bibliotebot_vision/CMakeFiles/roscpp_generate_messages_eus.dir
+
+# All Build rule for target.
+bibliotebot_vision/CMakeFiles/roscpp_generate_messages_eus.dir/all:
+	$(MAKE) -f bibliotebot_vision/CMakeFiles/roscpp_generate_messages_eus.dir/build.make bibliotebot_vision/CMakeFiles/roscpp_generate_messages_eus.dir/depend
+	$(MAKE) -f bibliotebot_vision/CMakeFiles/roscpp_generate_messages_eus.dir/build.make bibliotebot_vision/CMakeFiles/roscpp_generate_messages_eus.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/edu/bibliotebot_burguer/build/CMakeFiles --progress-num= "Built target roscpp_generate_messages_eus"
+.PHONY : bibliotebot_vision/CMakeFiles/roscpp_generate_messages_eus.dir/all
+
+# Build rule for subdir invocation for target.
+bibliotebot_vision/CMakeFiles/roscpp_generate_messages_eus.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 bibliotebot_vision/CMakeFiles/roscpp_generate_messages_eus.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
+.PHONY : bibliotebot_vision/CMakeFiles/roscpp_generate_messages_eus.dir/rule
+
+# Convenience name for target.
+roscpp_generate_messages_eus: bibliotebot_vision/CMakeFiles/roscpp_generate_messages_eus.dir/rule
+
+.PHONY : roscpp_generate_messages_eus
+
+# clean rule for target.
+bibliotebot_vision/CMakeFiles/roscpp_generate_messages_eus.dir/clean:
+	$(MAKE) -f bibliotebot_vision/CMakeFiles/roscpp_generate_messages_eus.dir/build.make bibliotebot_vision/CMakeFiles/roscpp_generate_messages_eus.dir/clean
+.PHONY : bibliotebot_vision/CMakeFiles/roscpp_generate_messages_eus.dir/clean
+
+# clean rule for target.
+clean: bibliotebot_vision/CMakeFiles/roscpp_generate_messages_eus.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target bibliotebot_vision/CMakeFiles/roscpp_generate_messages_lisp.dir
+
+# All Build rule for target.
+bibliotebot_vision/CMakeFiles/roscpp_generate_messages_lisp.dir/all:
+	$(MAKE) -f bibliotebot_vision/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make bibliotebot_vision/CMakeFiles/roscpp_generate_messages_lisp.dir/depend
+	$(MAKE) -f bibliotebot_vision/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make bibliotebot_vision/CMakeFiles/roscpp_generate_messages_lisp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/edu/bibliotebot_burguer/build/CMakeFiles --progress-num= "Built target roscpp_generate_messages_lisp"
+.PHONY : bibliotebot_vision/CMakeFiles/roscpp_generate_messages_lisp.dir/all
+
+# Build rule for subdir invocation for target.
+bibliotebot_vision/CMakeFiles/roscpp_generate_messages_lisp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 bibliotebot_vision/CMakeFiles/roscpp_generate_messages_lisp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
+.PHONY : bibliotebot_vision/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+roscpp_generate_messages_lisp: bibliotebot_vision/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
+
+.PHONY : roscpp_generate_messages_lisp
+
+# clean rule for target.
+bibliotebot_vision/CMakeFiles/roscpp_generate_messages_lisp.dir/clean:
+	$(MAKE) -f bibliotebot_vision/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make bibliotebot_vision/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
+.PHONY : bibliotebot_vision/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
+
+# clean rule for target.
+clean: bibliotebot_vision/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target bibliotebot_vision/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir
+
+# All Build rule for target.
+bibliotebot_vision/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all:
+	$(MAKE) -f bibliotebot_vision/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make bibliotebot_vision/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/depend
+	$(MAKE) -f bibliotebot_vision/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make bibliotebot_vision/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/edu/bibliotebot_burguer/build/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_cpp"
+.PHONY : bibliotebot_vision/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+
+# Build rule for subdir invocation for target.
+bibliotebot_vision/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 bibliotebot_vision/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
+.PHONY : bibliotebot_vision/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+rosgraph_msgs_generate_messages_cpp: bibliotebot_vision/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
+
+.PHONY : rosgraph_msgs_generate_messages_cpp
+
+# clean rule for target.
+bibliotebot_vision/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean:
+	$(MAKE) -f bibliotebot_vision/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make bibliotebot_vision/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
+.PHONY : bibliotebot_vision/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
+
+# clean rule for target.
+clean: bibliotebot_vision/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target bibliotebot_vision/CMakeFiles/std_msgs_generate_messages_lisp.dir
+
+# All Build rule for target.
+bibliotebot_vision/CMakeFiles/std_msgs_generate_messages_lisp.dir/all:
+	$(MAKE) -f bibliotebot_vision/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make bibliotebot_vision/CMakeFiles/std_msgs_generate_messages_lisp.dir/depend
+	$(MAKE) -f bibliotebot_vision/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make bibliotebot_vision/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/edu/bibliotebot_burguer/build/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_lisp"
+.PHONY : bibliotebot_vision/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+
+# Build rule for subdir invocation for target.
+bibliotebot_vision/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 bibliotebot_vision/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
+.PHONY : bibliotebot_vision/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+std_msgs_generate_messages_lisp: bibliotebot_vision/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
+
+.PHONY : std_msgs_generate_messages_lisp
+
+# clean rule for target.
+bibliotebot_vision/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean:
+	$(MAKE) -f bibliotebot_vision/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make bibliotebot_vision/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
+.PHONY : bibliotebot_vision/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
+
+# clean rule for target.
+clean: bibliotebot_vision/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target bibliotebot_vision/CMakeFiles/roscpp_generate_messages_cpp.dir
+
+# All Build rule for target.
+bibliotebot_vision/CMakeFiles/roscpp_generate_messages_cpp.dir/all:
+	$(MAKE) -f bibliotebot_vision/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make bibliotebot_vision/CMakeFiles/roscpp_generate_messages_cpp.dir/depend
+	$(MAKE) -f bibliotebot_vision/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make bibliotebot_vision/CMakeFiles/roscpp_generate_messages_cpp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/edu/bibliotebot_burguer/build/CMakeFiles --progress-num= "Built target roscpp_generate_messages_cpp"
+.PHONY : bibliotebot_vision/CMakeFiles/roscpp_generate_messages_cpp.dir/all
+
+# Build rule for subdir invocation for target.
+bibliotebot_vision/CMakeFiles/roscpp_generate_messages_cpp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 bibliotebot_vision/CMakeFiles/roscpp_generate_messages_cpp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
+.PHONY : bibliotebot_vision/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+roscpp_generate_messages_cpp: bibliotebot_vision/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
+
+.PHONY : roscpp_generate_messages_cpp
+
+# clean rule for target.
+bibliotebot_vision/CMakeFiles/roscpp_generate_messages_cpp.dir/clean:
+	$(MAKE) -f bibliotebot_vision/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make bibliotebot_vision/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
+.PHONY : bibliotebot_vision/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
+
+# clean rule for target.
+clean: bibliotebot_vision/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target bibliotebot_vision/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir
+
+# All Build rule for target.
+bibliotebot_vision/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all:
+	$(MAKE) -f bibliotebot_vision/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make bibliotebot_vision/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/depend
+	$(MAKE) -f bibliotebot_vision/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make bibliotebot_vision/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/edu/bibliotebot_burguer/build/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_eus"
+.PHONY : bibliotebot_vision/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
+
+# Build rule for subdir invocation for target.
+bibliotebot_vision/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 bibliotebot_vision/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
+.PHONY : bibliotebot_vision/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
+
+# Convenience name for target.
+rosgraph_msgs_generate_messages_eus: bibliotebot_vision/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
+
+.PHONY : rosgraph_msgs_generate_messages_eus
+
+# clean rule for target.
+bibliotebot_vision/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean:
+	$(MAKE) -f bibliotebot_vision/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make bibliotebot_vision/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean
+.PHONY : bibliotebot_vision/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean
+
+# clean rule for target.
+clean: bibliotebot_vision/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target bibliotebot_vision/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir
+
+# All Build rule for target.
+bibliotebot_vision/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all:
+	$(MAKE) -f bibliotebot_vision/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make bibliotebot_vision/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/depend
+	$(MAKE) -f bibliotebot_vision/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make bibliotebot_vision/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/edu/bibliotebot_burguer/build/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_lisp"
+.PHONY : bibliotebot_vision/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+
+# Build rule for subdir invocation for target.
+bibliotebot_vision/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 bibliotebot_vision/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
+.PHONY : bibliotebot_vision/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+rosgraph_msgs_generate_messages_lisp: bibliotebot_vision/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
+
+.PHONY : rosgraph_msgs_generate_messages_lisp
+
+# clean rule for target.
+bibliotebot_vision/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean:
+	$(MAKE) -f bibliotebot_vision/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make bibliotebot_vision/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
+.PHONY : bibliotebot_vision/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
+
+# clean rule for target.
+clean: bibliotebot_vision/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target bibliotebot_vision/CMakeFiles/std_msgs_generate_messages_cpp.dir
+
+# All Build rule for target.
+bibliotebot_vision/CMakeFiles/std_msgs_generate_messages_cpp.dir/all:
+	$(MAKE) -f bibliotebot_vision/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make bibliotebot_vision/CMakeFiles/std_msgs_generate_messages_cpp.dir/depend
+	$(MAKE) -f bibliotebot_vision/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make bibliotebot_vision/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/edu/bibliotebot_burguer/build/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_cpp"
+.PHONY : bibliotebot_vision/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+
+# Build rule for subdir invocation for target.
+bibliotebot_vision/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 bibliotebot_vision/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
+.PHONY : bibliotebot_vision/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+std_msgs_generate_messages_cpp: bibliotebot_vision/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
+
+.PHONY : std_msgs_generate_messages_cpp
+
+# clean rule for target.
+bibliotebot_vision/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean:
+	$(MAKE) -f bibliotebot_vision/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make bibliotebot_vision/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
+.PHONY : bibliotebot_vision/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
+
+# clean rule for target.
+clean: bibliotebot_vision/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target bibliotebot_vision/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir
+
+# All Build rule for target.
+bibliotebot_vision/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all:
+	$(MAKE) -f bibliotebot_vision/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make bibliotebot_vision/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/depend
+	$(MAKE) -f bibliotebot_vision/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make bibliotebot_vision/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/edu/bibliotebot_burguer/build/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_nodejs"
+.PHONY : bibliotebot_vision/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
+
+# Build rule for subdir invocation for target.
+bibliotebot_vision/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 bibliotebot_vision/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
+.PHONY : bibliotebot_vision/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
+
+# Convenience name for target.
+rosgraph_msgs_generate_messages_nodejs: bibliotebot_vision/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
+
+.PHONY : rosgraph_msgs_generate_messages_nodejs
+
+# clean rule for target.
+bibliotebot_vision/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean:
+	$(MAKE) -f bibliotebot_vision/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make bibliotebot_vision/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean
+.PHONY : bibliotebot_vision/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean
+
+# clean rule for target.
+clean: bibliotebot_vision/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target bibliotebot_vision/CMakeFiles/rosgraph_msgs_generate_messages_py.dir
+
+# All Build rule for target.
+bibliotebot_vision/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all:
+	$(MAKE) -f bibliotebot_vision/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make bibliotebot_vision/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/depend
+	$(MAKE) -f bibliotebot_vision/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make bibliotebot_vision/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/edu/bibliotebot_burguer/build/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_py"
+.PHONY : bibliotebot_vision/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+
+# Build rule for subdir invocation for target.
+bibliotebot_vision/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 bibliotebot_vision/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
+.PHONY : bibliotebot_vision/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
+
+# Convenience name for target.
+rosgraph_msgs_generate_messages_py: bibliotebot_vision/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
+
+.PHONY : rosgraph_msgs_generate_messages_py
+
+# clean rule for target.
+bibliotebot_vision/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean:
+	$(MAKE) -f bibliotebot_vision/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make bibliotebot_vision/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
+.PHONY : bibliotebot_vision/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
+
+# clean rule for target.
+clean: bibliotebot_vision/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target bibliotebot_vision/CMakeFiles/std_msgs_generate_messages_eus.dir
+
+# All Build rule for target.
+bibliotebot_vision/CMakeFiles/std_msgs_generate_messages_eus.dir/all:
+	$(MAKE) -f bibliotebot_vision/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make bibliotebot_vision/CMakeFiles/std_msgs_generate_messages_eus.dir/depend
+	$(MAKE) -f bibliotebot_vision/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make bibliotebot_vision/CMakeFiles/std_msgs_generate_messages_eus.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/edu/bibliotebot_burguer/build/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_eus"
+.PHONY : bibliotebot_vision/CMakeFiles/std_msgs_generate_messages_eus.dir/all
+
+# Build rule for subdir invocation for target.
+bibliotebot_vision/CMakeFiles/std_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 bibliotebot_vision/CMakeFiles/std_msgs_generate_messages_eus.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
+.PHONY : bibliotebot_vision/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
+
+# Convenience name for target.
+std_msgs_generate_messages_eus: bibliotebot_vision/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
+
+.PHONY : std_msgs_generate_messages_eus
+
+# clean rule for target.
+bibliotebot_vision/CMakeFiles/std_msgs_generate_messages_eus.dir/clean:
+	$(MAKE) -f bibliotebot_vision/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make bibliotebot_vision/CMakeFiles/std_msgs_generate_messages_eus.dir/clean
+.PHONY : bibliotebot_vision/CMakeFiles/std_msgs_generate_messages_eus.dir/clean
+
+# clean rule for target.
+clean: bibliotebot_vision/CMakeFiles/std_msgs_generate_messages_eus.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target bibliotebot_vision/CMakeFiles/std_msgs_generate_messages_nodejs.dir
+
+# All Build rule for target.
+bibliotebot_vision/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all:
+	$(MAKE) -f bibliotebot_vision/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make bibliotebot_vision/CMakeFiles/std_msgs_generate_messages_nodejs.dir/depend
+	$(MAKE) -f bibliotebot_vision/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make bibliotebot_vision/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/edu/bibliotebot_burguer/build/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_nodejs"
+.PHONY : bibliotebot_vision/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
+
+# Build rule for subdir invocation for target.
+bibliotebot_vision/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 bibliotebot_vision/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
+.PHONY : bibliotebot_vision/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
+
+# Convenience name for target.
+std_msgs_generate_messages_nodejs: bibliotebot_vision/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
+
+.PHONY : std_msgs_generate_messages_nodejs
+
+# clean rule for target.
+bibliotebot_vision/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean:
+	$(MAKE) -f bibliotebot_vision/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make bibliotebot_vision/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean
+.PHONY : bibliotebot_vision/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean
+
+# clean rule for target.
+clean: bibliotebot_vision/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target bibliotebot_vision/CMakeFiles/roscpp_generate_messages_nodejs.dir
+
+# All Build rule for target.
+bibliotebot_vision/CMakeFiles/roscpp_generate_messages_nodejs.dir/all:
+	$(MAKE) -f bibliotebot_vision/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make bibliotebot_vision/CMakeFiles/roscpp_generate_messages_nodejs.dir/depend
+	$(MAKE) -f bibliotebot_vision/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make bibliotebot_vision/CMakeFiles/roscpp_generate_messages_nodejs.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/edu/bibliotebot_burguer/build/CMakeFiles --progress-num= "Built target roscpp_generate_messages_nodejs"
+.PHONY : bibliotebot_vision/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+
+# Build rule for subdir invocation for target.
+bibliotebot_vision/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 bibliotebot_vision/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
+.PHONY : bibliotebot_vision/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
+
+# Convenience name for target.
+roscpp_generate_messages_nodejs: bibliotebot_vision/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
+
+.PHONY : roscpp_generate_messages_nodejs
+
+# clean rule for target.
+bibliotebot_vision/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean:
+	$(MAKE) -f bibliotebot_vision/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make bibliotebot_vision/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean
+.PHONY : bibliotebot_vision/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean
+
+# clean rule for target.
+clean: bibliotebot_vision/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target bibliotebot_vision/CMakeFiles/std_msgs_generate_messages_py.dir
+
+# All Build rule for target.
+bibliotebot_vision/CMakeFiles/std_msgs_generate_messages_py.dir/all:
+	$(MAKE) -f bibliotebot_vision/CMakeFiles/std_msgs_generate_messages_py.dir/build.make bibliotebot_vision/CMakeFiles/std_msgs_generate_messages_py.dir/depend
+	$(MAKE) -f bibliotebot_vision/CMakeFiles/std_msgs_generate_messages_py.dir/build.make bibliotebot_vision/CMakeFiles/std_msgs_generate_messages_py.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/edu/bibliotebot_burguer/build/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_py"
+.PHONY : bibliotebot_vision/CMakeFiles/std_msgs_generate_messages_py.dir/all
+
+# Build rule for subdir invocation for target.
+bibliotebot_vision/CMakeFiles/std_msgs_generate_messages_py.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 bibliotebot_vision/CMakeFiles/std_msgs_generate_messages_py.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
+.PHONY : bibliotebot_vision/CMakeFiles/std_msgs_generate_messages_py.dir/rule
+
+# Convenience name for target.
+std_msgs_generate_messages_py: bibliotebot_vision/CMakeFiles/std_msgs_generate_messages_py.dir/rule
+
+.PHONY : std_msgs_generate_messages_py
+
+# clean rule for target.
+bibliotebot_vision/CMakeFiles/std_msgs_generate_messages_py.dir/clean:
+	$(MAKE) -f bibliotebot_vision/CMakeFiles/std_msgs_generate_messages_py.dir/build.make bibliotebot_vision/CMakeFiles/std_msgs_generate_messages_py.dir/clean
+.PHONY : bibliotebot_vision/CMakeFiles/std_msgs_generate_messages_py.dir/clean
+
+# clean rule for target.
+clean: bibliotebot_vision/CMakeFiles/std_msgs_generate_messages_py.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Directory level rules for directory turtlebot3/turtlebot3_bringup
 
 # Convenience name for "all" pass in the directory.
@@ -499,42 +1011,27 @@ turtlebot3/turtlebot3_bringup/all: turtlebot3/turtlebot3_bringup/CMakeFiles/turt
 .PHONY : turtlebot3/turtlebot3_bringup/all
 
 # Convenience name for "clean" pass in the directory.
-turtlebot3/turtlebot3_bringup/clean: turtlebot3/turtlebot3_bringup/CMakeFiles/std_msgs_generate_messages_py.dir/clean
-turtlebot3/turtlebot3_bringup/clean: turtlebot3/turtlebot3_bringup/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean
-turtlebot3/turtlebot3_bringup/clean: turtlebot3/turtlebot3_bringup/CMakeFiles/std_msgs_generate_messages_eus.dir/clean
-turtlebot3/turtlebot3_bringup/clean: turtlebot3/turtlebot3_bringup/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
-turtlebot3/turtlebot3_bringup/clean: turtlebot3/turtlebot3_bringup/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean
-turtlebot3/turtlebot3_bringup/clean: turtlebot3/turtlebot3_bringup/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
+turtlebot3/turtlebot3_bringup/clean: turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/clean
 turtlebot3/turtlebot3_bringup/clean: turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_nodejs.dir/clean
-turtlebot3/turtlebot3_bringup/clean: turtlebot3/turtlebot3_bringup/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
-turtlebot3/turtlebot3_bringup/clean: turtlebot3/turtlebot3_bringup/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean
-turtlebot3/turtlebot3_bringup/clean: turtlebot3/turtlebot3_bringup/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
+turtlebot3/turtlebot3_bringup/clean: turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_eus.dir/clean
+turtlebot3/turtlebot3_bringup/clean: turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
+turtlebot3/turtlebot3_bringup/clean: turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/clean
+turtlebot3/turtlebot3_bringup/clean: turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/clean
+turtlebot3/turtlebot3_bringup/clean: turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_py.dir/clean
+turtlebot3/turtlebot3_bringup/clean: turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/clean
 turtlebot3/turtlebot3_bringup/clean: turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/clean
 turtlebot3/turtlebot3_bringup/clean: turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_eus.dir/clean
-turtlebot3/turtlebot3_bringup/clean: turtlebot3/turtlebot3_bringup/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
-turtlebot3/turtlebot3_bringup/clean: turtlebot3/turtlebot3_bringup/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
-turtlebot3/turtlebot3_bringup/clean: turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/clean
-turtlebot3/turtlebot3_bringup/clean: turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_lisp.dir/clean
-turtlebot3/turtlebot3_bringup/clean: turtlebot3/turtlebot3_bringup/CMakeFiles/roscpp_generate_messages_py.dir/clean
-turtlebot3/turtlebot3_bringup/clean: turtlebot3/turtlebot3_bringup/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean
-turtlebot3/turtlebot3_bringup/clean: turtlebot3/turtlebot3_bringup/CMakeFiles/roscpp_generate_messages_eus.dir/clean
 turtlebot3/turtlebot3_bringup/clean: turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_eus.dir/clean
-turtlebot3/turtlebot3_bringup/clean: turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/clean
-turtlebot3/turtlebot3_bringup/clean: turtlebot3/turtlebot3_bringup/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
-turtlebot3/turtlebot3_bringup/clean: turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_py.dir/clean
-turtlebot3/turtlebot3_bringup/clean: turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/clean
-turtlebot3/turtlebot3_bringup/clean: turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_py.dir/clean
-turtlebot3/turtlebot3_bringup/clean: turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/clean
-turtlebot3/turtlebot3_bringup/clean: turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/clean
-turtlebot3/turtlebot3_bringup/clean: turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/clean
-turtlebot3/turtlebot3_bringup/clean: turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
-turtlebot3/turtlebot3_bringup/clean: turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
-turtlebot3/turtlebot3_bringup/clean: turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
-turtlebot3/turtlebot3_bringup/clean: turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/clean
 turtlebot3/turtlebot3_bringup/clean: turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_nodejs.dir/clean
+turtlebot3/turtlebot3_bringup/clean: turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_lisp.dir/clean
+turtlebot3/turtlebot3_bringup/clean: turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/clean
+turtlebot3/turtlebot3_bringup/clean: turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
+turtlebot3/turtlebot3_bringup/clean: turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_py.dir/clean
+turtlebot3/turtlebot3_bringup/clean: turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/clean
+turtlebot3/turtlebot3_bringup/clean: turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/clean
+turtlebot3/turtlebot3_bringup/clean: turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
+turtlebot3/turtlebot3_bringup/clean: turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/clean
 turtlebot3/turtlebot3_bringup/clean: turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_cpp.dir/clean
-turtlebot3/turtlebot3_bringup/clean: turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_eus.dir/clean
-turtlebot3/turtlebot3_bringup/clean: turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/clean
 
 .PHONY : turtlebot3/turtlebot3_bringup/clean
 
@@ -544,194 +1041,73 @@ turtlebot3/turtlebot3_bringup/preinstall:
 .PHONY : turtlebot3/turtlebot3_bringup/preinstall
 
 #=============================================================================
-# Target rules for target turtlebot3/turtlebot3_bringup/CMakeFiles/std_msgs_generate_messages_py.dir
+# Target rules for target turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir
 
 # All Build rule for target.
-turtlebot3/turtlebot3_bringup/CMakeFiles/std_msgs_generate_messages_py.dir/all:
-	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/std_msgs_generate_messages_py.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/std_msgs_generate_messages_py.dir/depend
-	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/std_msgs_generate_messages_py.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/std_msgs_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/edu/bibliotebot_burguer/build/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_py"
-.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/std_msgs_generate_messages_py.dir/all
+turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/all: bibliotebot_vision/CMakeFiles/roscpp_generate_messages_py.dir/all
+turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/all: bibliotebot_vision/CMakeFiles/roscpp_generate_messages_eus.dir/all
+turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/all: bibliotebot_vision/CMakeFiles/roscpp_generate_messages_lisp.dir/all
+turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/all: bibliotebot_vision/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/all: bibliotebot_vision/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/all: bibliotebot_vision/CMakeFiles/roscpp_generate_messages_cpp.dir/all
+turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/all: bibliotebot_vision/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
+turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/all: bibliotebot_vision/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/all: bibliotebot_vision/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/all: bibliotebot_vision/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
+turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/all: bibliotebot_vision/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/all: bibliotebot_vision/CMakeFiles/std_msgs_generate_messages_eus.dir/all
+turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/all: bibliotebot_vision/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
+turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/all: bibliotebot_vision/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/all: bibliotebot_vision/CMakeFiles/std_msgs_generate_messages_py.dir/all
+turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_nodejs.dir/all
+turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_eus.dir/all
+turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
+turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/all
+turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_py.dir/all
+turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
+turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
+turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
+turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
+turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_nodejs.dir/all
+turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_lisp.dir/all
+turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
+turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
+turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/all
+turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/all
+turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
+turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/all
+turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_cpp.dir/all
+	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/depend
+	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/edu/bibliotebot_burguer/build/CMakeFiles --progress-num=14,15 "Built target turtlebot3_diagnostics"
+.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/all
+
+# Include target in all.
+all: turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/all
+
+.PHONY : all
 
 # Build rule for subdir invocation for target.
-turtlebot3/turtlebot3_bringup/CMakeFiles/std_msgs_generate_messages_py.dir/rule: cmake_check_build_system
+turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 turtlebot3/turtlebot3_bringup/CMakeFiles/std_msgs_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
-.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/std_msgs_generate_messages_py.dir/rule
+.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/rule
 
 # Convenience name for target.
-std_msgs_generate_messages_py: turtlebot3/turtlebot3_bringup/CMakeFiles/std_msgs_generate_messages_py.dir/rule
+turtlebot3_diagnostics: turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/rule
 
-.PHONY : std_msgs_generate_messages_py
-
-# clean rule for target.
-turtlebot3/turtlebot3_bringup/CMakeFiles/std_msgs_generate_messages_py.dir/clean:
-	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/std_msgs_generate_messages_py.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/std_msgs_generate_messages_py.dir/clean
-.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/std_msgs_generate_messages_py.dir/clean
+.PHONY : turtlebot3_diagnostics
 
 # clean rule for target.
-clean: turtlebot3/turtlebot3_bringup/CMakeFiles/std_msgs_generate_messages_py.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target turtlebot3/turtlebot3_bringup/CMakeFiles/std_msgs_generate_messages_nodejs.dir
-
-# All Build rule for target.
-turtlebot3/turtlebot3_bringup/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all:
-	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/std_msgs_generate_messages_nodejs.dir/depend
-	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/edu/bibliotebot_burguer/build/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_nodejs"
-.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
-
-# Build rule for subdir invocation for target.
-turtlebot3/turtlebot3_bringup/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 turtlebot3/turtlebot3_bringup/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
-.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-std_msgs_generate_messages_nodejs: turtlebot3/turtlebot3_bringup/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
-
-.PHONY : std_msgs_generate_messages_nodejs
+turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/clean:
+	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/clean
+.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/clean
 
 # clean rule for target.
-turtlebot3/turtlebot3_bringup/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean:
-	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean
-.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean
-
-# clean rule for target.
-clean: turtlebot3/turtlebot3_bringup/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target turtlebot3/turtlebot3_bringup/CMakeFiles/std_msgs_generate_messages_eus.dir
-
-# All Build rule for target.
-turtlebot3/turtlebot3_bringup/CMakeFiles/std_msgs_generate_messages_eus.dir/all:
-	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/std_msgs_generate_messages_eus.dir/depend
-	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/std_msgs_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/edu/bibliotebot_burguer/build/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_eus"
-.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/std_msgs_generate_messages_eus.dir/all
-
-# Build rule for subdir invocation for target.
-turtlebot3/turtlebot3_bringup/CMakeFiles/std_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 turtlebot3/turtlebot3_bringup/CMakeFiles/std_msgs_generate_messages_eus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
-.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-std_msgs_generate_messages_eus: turtlebot3/turtlebot3_bringup/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
-
-.PHONY : std_msgs_generate_messages_eus
-
-# clean rule for target.
-turtlebot3/turtlebot3_bringup/CMakeFiles/std_msgs_generate_messages_eus.dir/clean:
-	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/std_msgs_generate_messages_eus.dir/clean
-.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/std_msgs_generate_messages_eus.dir/clean
-
-# clean rule for target.
-clean: turtlebot3/turtlebot3_bringup/CMakeFiles/std_msgs_generate_messages_eus.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target turtlebot3/turtlebot3_bringup/CMakeFiles/rosgraph_msgs_generate_messages_py.dir
-
-# All Build rule for target.
-turtlebot3/turtlebot3_bringup/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all:
-	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/depend
-	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/edu/bibliotebot_burguer/build/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_py"
-.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
-
-# Build rule for subdir invocation for target.
-turtlebot3/turtlebot3_bringup/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 turtlebot3/turtlebot3_bringup/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
-.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-rosgraph_msgs_generate_messages_py: turtlebot3/turtlebot3_bringup/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
-
-.PHONY : rosgraph_msgs_generate_messages_py
-
-# clean rule for target.
-turtlebot3/turtlebot3_bringup/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean:
-	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
-.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
-
-# clean rule for target.
-clean: turtlebot3/turtlebot3_bringup/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target turtlebot3/turtlebot3_bringup/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir
-
-# All Build rule for target.
-turtlebot3/turtlebot3_bringup/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all:
-	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/depend
-	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/edu/bibliotebot_burguer/build/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_nodejs"
-.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
-
-# Build rule for subdir invocation for target.
-turtlebot3/turtlebot3_bringup/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 turtlebot3/turtlebot3_bringup/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
-.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-rosgraph_msgs_generate_messages_nodejs: turtlebot3/turtlebot3_bringup/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
-
-.PHONY : rosgraph_msgs_generate_messages_nodejs
-
-# clean rule for target.
-turtlebot3/turtlebot3_bringup/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean:
-	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean
-.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean
-
-# clean rule for target.
-clean: turtlebot3/turtlebot3_bringup/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target turtlebot3/turtlebot3_bringup/CMakeFiles/std_msgs_generate_messages_cpp.dir
-
-# All Build rule for target.
-turtlebot3/turtlebot3_bringup/CMakeFiles/std_msgs_generate_messages_cpp.dir/all:
-	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/std_msgs_generate_messages_cpp.dir/depend
-	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/edu/bibliotebot_burguer/build/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_cpp"
-.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
-
-# Build rule for subdir invocation for target.
-turtlebot3/turtlebot3_bringup/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 turtlebot3/turtlebot3_bringup/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
-.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-std_msgs_generate_messages_cpp: turtlebot3/turtlebot3_bringup/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
-
-.PHONY : std_msgs_generate_messages_cpp
-
-# clean rule for target.
-turtlebot3/turtlebot3_bringup/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean:
-	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
-.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
-
-# clean rule for target.
-clean: turtlebot3/turtlebot3_bringup/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
+clean: turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/clean
 
 .PHONY : clean
 
@@ -768,98 +1144,194 @@ clean: turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_message
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target turtlebot3/turtlebot3_bringup/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir
+# Target rules for target turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_eus.dir
 
 # All Build rule for target.
-turtlebot3/turtlebot3_bringup/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all:
-	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/depend
-	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/edu/bibliotebot_burguer/build/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_lisp"
-.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_eus.dir/all:
+	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_eus.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_eus.dir/depend
+	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_eus.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_eus.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/edu/bibliotebot_burguer/build/CMakeFiles --progress-num= "Built target turtlebot3_msgs_generate_messages_eus"
+.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
-turtlebot3/turtlebot3_bringup/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
+turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 turtlebot3/turtlebot3_bringup/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_eus.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
-.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
+.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
-rosgraph_msgs_generate_messages_lisp: turtlebot3/turtlebot3_bringup/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
+turtlebot3_msgs_generate_messages_eus: turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_eus.dir/rule
 
-.PHONY : rosgraph_msgs_generate_messages_lisp
-
-# clean rule for target.
-turtlebot3/turtlebot3_bringup/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean:
-	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
-.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
+.PHONY : turtlebot3_msgs_generate_messages_eus
 
 # clean rule for target.
-clean: turtlebot3/turtlebot3_bringup/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
+turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_eus.dir/clean:
+	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_eus.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_eus.dir/clean
+.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_eus.dir/clean
+
+# clean rule for target.
+clean: turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_eus.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target turtlebot3/turtlebot3_bringup/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir
+# Target rules for target turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_lisp.dir
 
 # All Build rule for target.
-turtlebot3/turtlebot3_bringup/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all:
-	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/depend
-	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/edu/bibliotebot_burguer/build/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_eus"
-.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
+turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all:
+	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/depend
+	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/edu/bibliotebot_burguer/build/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_lisp"
+.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
-turtlebot3/turtlebot3_bringup/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
+turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 turtlebot3/turtlebot3_bringup/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
-.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
+.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
-rosgraph_msgs_generate_messages_eus: turtlebot3/turtlebot3_bringup/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
+geometry_msgs_generate_messages_lisp: turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
 
-.PHONY : rosgraph_msgs_generate_messages_eus
-
-# clean rule for target.
-turtlebot3/turtlebot3_bringup/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean:
-	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean
-.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean
+.PHONY : geometry_msgs_generate_messages_lisp
 
 # clean rule for target.
-clean: turtlebot3/turtlebot3_bringup/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean
+turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean:
+	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
+.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
+
+# clean rule for target.
+clean: turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target turtlebot3/turtlebot3_bringup/CMakeFiles/std_msgs_generate_messages_lisp.dir
+# Target rules for target turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir
 
 # All Build rule for target.
-turtlebot3/turtlebot3_bringup/CMakeFiles/std_msgs_generate_messages_lisp.dir/all:
-	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/std_msgs_generate_messages_lisp.dir/depend
-	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/edu/bibliotebot_burguer/build/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_lisp"
-.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all:
+	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/depend
+	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/edu/bibliotebot_burguer/build/CMakeFiles --progress-num= "Built target sensor_msgs_generate_messages_nodejs"
+.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
-turtlebot3/turtlebot3_bringup/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
+turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 turtlebot3/turtlebot3_bringup/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
-.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
+.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
-std_msgs_generate_messages_lisp: turtlebot3/turtlebot3_bringup/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
+sensor_msgs_generate_messages_nodejs: turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule
 
-.PHONY : std_msgs_generate_messages_lisp
-
-# clean rule for target.
-turtlebot3/turtlebot3_bringup/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean:
-	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
-.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
+.PHONY : sensor_msgs_generate_messages_nodejs
 
 # clean rule for target.
-clean: turtlebot3/turtlebot3_bringup/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
+turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/clean:
+	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/clean
+.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/clean
+
+# clean rule for target.
+clean: turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir
+
+# All Build rule for target.
+turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/all:
+	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/depend
+	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/edu/bibliotebot_burguer/build/CMakeFiles --progress-num= "Built target diagnostic_msgs_generate_messages_lisp"
+.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/all
+
+# Build rule for subdir invocation for target.
+turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
+.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+diagnostic_msgs_generate_messages_lisp: turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/rule
+
+.PHONY : diagnostic_msgs_generate_messages_lisp
+
+# clean rule for target.
+turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/clean:
+	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/clean
+.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/clean
+
+# clean rule for target.
+clean: turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_py.dir
+
+# All Build rule for target.
+turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_py.dir/all:
+	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_py.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_py.dir/depend
+	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_py.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_py.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/edu/bibliotebot_burguer/build/CMakeFiles --progress-num= "Built target turtlebot3_msgs_generate_messages_py"
+.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_py.dir/all
+
+# Build rule for subdir invocation for target.
+turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_py.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_py.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
+.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_py.dir/rule
+
+# Convenience name for target.
+turtlebot3_msgs_generate_messages_py: turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_py.dir/rule
+
+.PHONY : turtlebot3_msgs_generate_messages_py
+
+# clean rule for target.
+turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_py.dir/clean:
+	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_py.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_py.dir/clean
+.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_py.dir/clean
+
+# clean rule for target.
+clean: turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_py.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_lisp.dir
+
+# All Build rule for target.
+turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all:
+	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/depend
+	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/edu/bibliotebot_burguer/build/CMakeFiles --progress-num= "Built target sensor_msgs_generate_messages_lisp"
+.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
+
+# Build rule for subdir invocation for target.
+turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
+.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+sensor_msgs_generate_messages_lisp: turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
+
+.PHONY : sensor_msgs_generate_messages_lisp
+
+# clean rule for target.
+turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/clean:
+	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/clean
+.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/clean
+
+# clean rule for target.
+clean: turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/clean
 
 .PHONY : clean
 
@@ -928,230 +1400,6 @@ clean: turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_eu
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target turtlebot3/turtlebot3_bringup/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir
-
-# All Build rule for target.
-turtlebot3/turtlebot3_bringup/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all:
-	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/depend
-	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/edu/bibliotebot_burguer/build/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_cpp"
-.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
-
-# Build rule for subdir invocation for target.
-turtlebot3/turtlebot3_bringup/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 turtlebot3/turtlebot3_bringup/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
-.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-rosgraph_msgs_generate_messages_cpp: turtlebot3/turtlebot3_bringup/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
-
-.PHONY : rosgraph_msgs_generate_messages_cpp
-
-# clean rule for target.
-turtlebot3/turtlebot3_bringup/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean:
-	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
-.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
-
-# clean rule for target.
-clean: turtlebot3/turtlebot3_bringup/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target turtlebot3/turtlebot3_bringup/CMakeFiles/roscpp_generate_messages_lisp.dir
-
-# All Build rule for target.
-turtlebot3/turtlebot3_bringup/CMakeFiles/roscpp_generate_messages_lisp.dir/all:
-	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/roscpp_generate_messages_lisp.dir/depend
-	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/roscpp_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/edu/bibliotebot_burguer/build/CMakeFiles --progress-num= "Built target roscpp_generate_messages_lisp"
-.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/roscpp_generate_messages_lisp.dir/all
-
-# Build rule for subdir invocation for target.
-turtlebot3/turtlebot3_bringup/CMakeFiles/roscpp_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 turtlebot3/turtlebot3_bringup/CMakeFiles/roscpp_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
-.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-roscpp_generate_messages_lisp: turtlebot3/turtlebot3_bringup/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
-
-.PHONY : roscpp_generate_messages_lisp
-
-# clean rule for target.
-turtlebot3/turtlebot3_bringup/CMakeFiles/roscpp_generate_messages_lisp.dir/clean:
-	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
-.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
-
-# clean rule for target.
-clean: turtlebot3/turtlebot3_bringup/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir
-
-# All Build rule for target.
-turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all:
-	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/depend
-	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/edu/bibliotebot_burguer/build/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_nodejs"
-.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
-
-# Build rule for subdir invocation for target.
-turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
-.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-geometry_msgs_generate_messages_nodejs: turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule
-
-.PHONY : geometry_msgs_generate_messages_nodejs
-
-# clean rule for target.
-turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/clean:
-	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/clean
-.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/clean
-
-# clean rule for target.
-clean: turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_lisp.dir
-
-# All Build rule for target.
-turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_lisp.dir/all:
-	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_lisp.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_lisp.dir/depend
-	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_lisp.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/edu/bibliotebot_burguer/build/CMakeFiles --progress-num= "Built target turtlebot3_msgs_generate_messages_lisp"
-.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_lisp.dir/all
-
-# Build rule for subdir invocation for target.
-turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
-.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-turtlebot3_msgs_generate_messages_lisp: turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_lisp.dir/rule
-
-.PHONY : turtlebot3_msgs_generate_messages_lisp
-
-# clean rule for target.
-turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_lisp.dir/clean:
-	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_lisp.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_lisp.dir/clean
-.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_lisp.dir/clean
-
-# clean rule for target.
-clean: turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_lisp.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target turtlebot3/turtlebot3_bringup/CMakeFiles/roscpp_generate_messages_py.dir
-
-# All Build rule for target.
-turtlebot3/turtlebot3_bringup/CMakeFiles/roscpp_generate_messages_py.dir/all:
-	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/roscpp_generate_messages_py.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/roscpp_generate_messages_py.dir/depend
-	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/roscpp_generate_messages_py.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/roscpp_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/edu/bibliotebot_burguer/build/CMakeFiles --progress-num= "Built target roscpp_generate_messages_py"
-.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/roscpp_generate_messages_py.dir/all
-
-# Build rule for subdir invocation for target.
-turtlebot3/turtlebot3_bringup/CMakeFiles/roscpp_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 turtlebot3/turtlebot3_bringup/CMakeFiles/roscpp_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
-.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/roscpp_generate_messages_py.dir/rule
-
-# Convenience name for target.
-roscpp_generate_messages_py: turtlebot3/turtlebot3_bringup/CMakeFiles/roscpp_generate_messages_py.dir/rule
-
-.PHONY : roscpp_generate_messages_py
-
-# clean rule for target.
-turtlebot3/turtlebot3_bringup/CMakeFiles/roscpp_generate_messages_py.dir/clean:
-	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/roscpp_generate_messages_py.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/roscpp_generate_messages_py.dir/clean
-.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/roscpp_generate_messages_py.dir/clean
-
-# clean rule for target.
-clean: turtlebot3/turtlebot3_bringup/CMakeFiles/roscpp_generate_messages_py.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target turtlebot3/turtlebot3_bringup/CMakeFiles/roscpp_generate_messages_nodejs.dir
-
-# All Build rule for target.
-turtlebot3/turtlebot3_bringup/CMakeFiles/roscpp_generate_messages_nodejs.dir/all:
-	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/roscpp_generate_messages_nodejs.dir/depend
-	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/roscpp_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/edu/bibliotebot_burguer/build/CMakeFiles --progress-num= "Built target roscpp_generate_messages_nodejs"
-.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
-
-# Build rule for subdir invocation for target.
-turtlebot3/turtlebot3_bringup/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 turtlebot3/turtlebot3_bringup/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
-.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-roscpp_generate_messages_nodejs: turtlebot3/turtlebot3_bringup/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
-
-.PHONY : roscpp_generate_messages_nodejs
-
-# clean rule for target.
-turtlebot3/turtlebot3_bringup/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean:
-	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean
-.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean
-
-# clean rule for target.
-clean: turtlebot3/turtlebot3_bringup/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target turtlebot3/turtlebot3_bringup/CMakeFiles/roscpp_generate_messages_eus.dir
-
-# All Build rule for target.
-turtlebot3/turtlebot3_bringup/CMakeFiles/roscpp_generate_messages_eus.dir/all:
-	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/roscpp_generate_messages_eus.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/roscpp_generate_messages_eus.dir/depend
-	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/roscpp_generate_messages_eus.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/roscpp_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/edu/bibliotebot_burguer/build/CMakeFiles --progress-num= "Built target roscpp_generate_messages_eus"
-.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/roscpp_generate_messages_eus.dir/all
-
-# Build rule for subdir invocation for target.
-turtlebot3/turtlebot3_bringup/CMakeFiles/roscpp_generate_messages_eus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 turtlebot3/turtlebot3_bringup/CMakeFiles/roscpp_generate_messages_eus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
-.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/roscpp_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-roscpp_generate_messages_eus: turtlebot3/turtlebot3_bringup/CMakeFiles/roscpp_generate_messages_eus.dir/rule
-
-.PHONY : roscpp_generate_messages_eus
-
-# clean rule for target.
-turtlebot3/turtlebot3_bringup/CMakeFiles/roscpp_generate_messages_eus.dir/clean:
-	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/roscpp_generate_messages_eus.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/roscpp_generate_messages_eus.dir/clean
-.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/roscpp_generate_messages_eus.dir/clean
-
-# clean rule for target.
-clean: turtlebot3/turtlebot3_bringup/CMakeFiles/roscpp_generate_messages_eus.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
 # Target rules for target turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_eus.dir
 
 # All Build rule for target.
@@ -1180,390 +1428,6 @@ turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_eus.dir
 
 # clean rule for target.
 clean: turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_eus.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_lisp.dir
-
-# All Build rule for target.
-turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all:
-	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/depend
-	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/edu/bibliotebot_burguer/build/CMakeFiles --progress-num= "Built target sensor_msgs_generate_messages_lisp"
-.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
-
-# Build rule for subdir invocation for target.
-turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
-.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-sensor_msgs_generate_messages_lisp: turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
-
-.PHONY : sensor_msgs_generate_messages_lisp
-
-# clean rule for target.
-turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/clean:
-	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/clean
-.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/clean
-
-# clean rule for target.
-clean: turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target turtlebot3/turtlebot3_bringup/CMakeFiles/roscpp_generate_messages_cpp.dir
-
-# All Build rule for target.
-turtlebot3/turtlebot3_bringup/CMakeFiles/roscpp_generate_messages_cpp.dir/all:
-	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/roscpp_generate_messages_cpp.dir/depend
-	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/roscpp_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/edu/bibliotebot_burguer/build/CMakeFiles --progress-num= "Built target roscpp_generate_messages_cpp"
-.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/roscpp_generate_messages_cpp.dir/all
-
-# Build rule for subdir invocation for target.
-turtlebot3/turtlebot3_bringup/CMakeFiles/roscpp_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 turtlebot3/turtlebot3_bringup/CMakeFiles/roscpp_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
-.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-roscpp_generate_messages_cpp: turtlebot3/turtlebot3_bringup/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
-
-.PHONY : roscpp_generate_messages_cpp
-
-# clean rule for target.
-turtlebot3/turtlebot3_bringup/CMakeFiles/roscpp_generate_messages_cpp.dir/clean:
-	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
-.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
-
-# clean rule for target.
-clean: turtlebot3/turtlebot3_bringup/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_py.dir
-
-# All Build rule for target.
-turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_py.dir/all:
-	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_py.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_py.dir/depend
-	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_py.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/edu/bibliotebot_burguer/build/CMakeFiles --progress-num= "Built target turtlebot3_msgs_generate_messages_py"
-.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_py.dir/all
-
-# Build rule for subdir invocation for target.
-turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
-.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-turtlebot3_msgs_generate_messages_py: turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_py.dir/rule
-
-.PHONY : turtlebot3_msgs_generate_messages_py
-
-# clean rule for target.
-turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_py.dir/clean:
-	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_py.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_py.dir/clean
-.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_py.dir/clean
-
-# clean rule for target.
-clean: turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_py.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir
-
-# All Build rule for target.
-turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all:
-	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/depend
-	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/edu/bibliotebot_burguer/build/CMakeFiles --progress-num= "Built target sensor_msgs_generate_messages_nodejs"
-.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
-
-# Build rule for subdir invocation for target.
-turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
-.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-sensor_msgs_generate_messages_nodejs: turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule
-
-.PHONY : sensor_msgs_generate_messages_nodejs
-
-# clean rule for target.
-turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/clean:
-	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/clean
-.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/clean
-
-# clean rule for target.
-clean: turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_py.dir
-
-# All Build rule for target.
-turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_py.dir/all:
-	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_py.dir/depend
-	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/edu/bibliotebot_burguer/build/CMakeFiles --progress-num= "Built target sensor_msgs_generate_messages_py"
-.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
-
-# Build rule for subdir invocation for target.
-turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
-.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-sensor_msgs_generate_messages_py: turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
-
-.PHONY : sensor_msgs_generate_messages_py
-
-# clean rule for target.
-turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_py.dir/clean:
-	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_py.dir/clean
-.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_py.dir/clean
-
-# clean rule for target.
-clean: turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_py.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir
-
-# All Build rule for target.
-turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/all:
-	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/depend
-	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/edu/bibliotebot_burguer/build/CMakeFiles --progress-num= "Built target diagnostic_msgs_generate_messages_cpp"
-.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/all
-
-# Build rule for subdir invocation for target.
-turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
-.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-diagnostic_msgs_generate_messages_cpp: turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/rule
-
-.PHONY : diagnostic_msgs_generate_messages_cpp
-
-# clean rule for target.
-turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/clean:
-	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/clean
-.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/clean
-
-# clean rule for target.
-clean: turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir
-
-# All Build rule for target.
-turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/all:
-	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/depend
-	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/edu/bibliotebot_burguer/build/CMakeFiles --progress-num= "Built target diagnostic_msgs_generate_messages_eus"
-.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/all
-
-# Build rule for subdir invocation for target.
-turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
-.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-diagnostic_msgs_generate_messages_eus: turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/rule
-
-.PHONY : diagnostic_msgs_generate_messages_eus
-
-# clean rule for target.
-turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/clean:
-	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/clean
-.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/clean
-
-# clean rule for target.
-clean: turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_py.dir
-
-# All Build rule for target.
-turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/all:
-	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/depend
-	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/edu/bibliotebot_burguer/build/CMakeFiles --progress-num= "Built target diagnostic_msgs_generate_messages_py"
-.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/all
-
-# Build rule for subdir invocation for target.
-turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
-.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-diagnostic_msgs_generate_messages_py: turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/rule
-
-.PHONY : diagnostic_msgs_generate_messages_py
-
-# clean rule for target.
-turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/clean:
-	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/clean
-.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/clean
-
-# clean rule for target.
-clean: turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_cpp.dir
-
-# All Build rule for target.
-turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all:
-	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/depend
-	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/edu/bibliotebot_burguer/build/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_cpp"
-.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
-
-# Build rule for subdir invocation for target.
-turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
-.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-geometry_msgs_generate_messages_cpp: turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
-
-.PHONY : geometry_msgs_generate_messages_cpp
-
-# clean rule for target.
-turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean:
-	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
-.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
-
-# clean rule for target.
-clean: turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_lisp.dir
-
-# All Build rule for target.
-turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all:
-	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/depend
-	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/edu/bibliotebot_burguer/build/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_lisp"
-.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
-
-# Build rule for subdir invocation for target.
-turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
-.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-geometry_msgs_generate_messages_lisp: turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
-
-.PHONY : geometry_msgs_generate_messages_lisp
-
-# clean rule for target.
-turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean:
-	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
-.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
-
-# clean rule for target.
-clean: turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_py.dir
-
-# All Build rule for target.
-turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_py.dir/all:
-	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_py.dir/depend
-	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/edu/bibliotebot_burguer/build/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_py"
-.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
-
-# Build rule for subdir invocation for target.
-turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
-.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-geometry_msgs_generate_messages_py: turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
-
-.PHONY : geometry_msgs_generate_messages_py
-
-# clean rule for target.
-turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean:
-	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
-.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
-
-# clean rule for target.
-clean: turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir
-
-# All Build rule for target.
-turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/all:
-	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/depend
-	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/edu/bibliotebot_burguer/build/CMakeFiles --progress-num= "Built target diagnostic_msgs_generate_messages_lisp"
-.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/all
-
-# Build rule for subdir invocation for target.
-turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
-.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-diagnostic_msgs_generate_messages_lisp: turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/rule
-
-.PHONY : diagnostic_msgs_generate_messages_lisp
-
-# clean rule for target.
-turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/clean:
-	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/clean
-.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/clean
-
-# clean rule for target.
-clean: turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/clean
 
 .PHONY : clean
 
@@ -1600,6 +1464,262 @@ clean: turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_message
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_lisp.dir
+
+# All Build rule for target.
+turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_lisp.dir/all:
+	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_lisp.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_lisp.dir/depend
+	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_lisp.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_lisp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/edu/bibliotebot_burguer/build/CMakeFiles --progress-num= "Built target turtlebot3_msgs_generate_messages_lisp"
+.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_lisp.dir/all
+
+# Build rule for subdir invocation for target.
+turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_lisp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
+.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+turtlebot3_msgs_generate_messages_lisp: turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_lisp.dir/rule
+
+.PHONY : turtlebot3_msgs_generate_messages_lisp
+
+# clean rule for target.
+turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_lisp.dir/clean:
+	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_lisp.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_lisp.dir/clean
+.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_lisp.dir/clean
+
+# clean rule for target.
+clean: turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_lisp.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir
+
+# All Build rule for target.
+turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all:
+	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/depend
+	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/edu/bibliotebot_burguer/build/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_nodejs"
+.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
+
+# Build rule for subdir invocation for target.
+turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
+.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule
+
+# Convenience name for target.
+geometry_msgs_generate_messages_nodejs: turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule
+
+.PHONY : geometry_msgs_generate_messages_nodejs
+
+# clean rule for target.
+turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/clean:
+	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/clean
+.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/clean
+
+# clean rule for target.
+clean: turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_py.dir
+
+# All Build rule for target.
+turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_py.dir/all:
+	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_py.dir/depend
+	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/edu/bibliotebot_burguer/build/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_py"
+.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+
+# Build rule for subdir invocation for target.
+turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
+.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
+
+# Convenience name for target.
+geometry_msgs_generate_messages_py: turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
+
+.PHONY : geometry_msgs_generate_messages_py
+
+# clean rule for target.
+turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean:
+	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
+.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
+
+# clean rule for target.
+clean: turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_py.dir
+
+# All Build rule for target.
+turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_py.dir/all:
+	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_py.dir/depend
+	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_py.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/edu/bibliotebot_burguer/build/CMakeFiles --progress-num= "Built target sensor_msgs_generate_messages_py"
+.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
+
+# Build rule for subdir invocation for target.
+turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
+.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
+
+# Convenience name for target.
+sensor_msgs_generate_messages_py: turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
+
+.PHONY : sensor_msgs_generate_messages_py
+
+# clean rule for target.
+turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_py.dir/clean:
+	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_py.dir/clean
+.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_py.dir/clean
+
+# clean rule for target.
+clean: turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_py.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir
+
+# All Build rule for target.
+turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/all:
+	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/depend
+	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/edu/bibliotebot_burguer/build/CMakeFiles --progress-num= "Built target diagnostic_msgs_generate_messages_eus"
+.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/all
+
+# Build rule for subdir invocation for target.
+turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
+.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/rule
+
+# Convenience name for target.
+diagnostic_msgs_generate_messages_eus: turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/rule
+
+.PHONY : diagnostic_msgs_generate_messages_eus
+
+# clean rule for target.
+turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/clean:
+	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/clean
+.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/clean
+
+# clean rule for target.
+clean: turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir
+
+# All Build rule for target.
+turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/all:
+	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/depend
+	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/edu/bibliotebot_burguer/build/CMakeFiles --progress-num= "Built target diagnostic_msgs_generate_messages_cpp"
+.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/all
+
+# Build rule for subdir invocation for target.
+turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
+.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+diagnostic_msgs_generate_messages_cpp: turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/rule
+
+.PHONY : diagnostic_msgs_generate_messages_cpp
+
+# clean rule for target.
+turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/clean:
+	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/clean
+.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/clean
+
+# clean rule for target.
+clean: turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_cpp.dir
+
+# All Build rule for target.
+turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all:
+	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/depend
+	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/edu/bibliotebot_burguer/build/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_cpp"
+.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
+
+# Build rule for subdir invocation for target.
+turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
+.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+geometry_msgs_generate_messages_cpp: turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
+
+.PHONY : geometry_msgs_generate_messages_cpp
+
+# clean rule for target.
+turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean:
+	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
+.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
+
+# clean rule for target.
+clean: turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_py.dir
+
+# All Build rule for target.
+turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/all:
+	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/depend
+	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/edu/bibliotebot_burguer/build/CMakeFiles --progress-num= "Built target diagnostic_msgs_generate_messages_py"
+.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/all
+
+# Build rule for subdir invocation for target.
+turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
+.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/rule
+
+# Convenience name for target.
+diagnostic_msgs_generate_messages_py: turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/rule
+
+.PHONY : diagnostic_msgs_generate_messages_py
+
+# clean rule for target.
+turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/clean:
+	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/clean
+.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/clean
+
+# clean rule for target.
+clean: turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_cpp.dir
 
 # All Build rule for target.
@@ -1628,109 +1748,6 @@ turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_cpp.d
 
 # clean rule for target.
 clean: turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_cpp.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_eus.dir
-
-# All Build rule for target.
-turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_eus.dir/all:
-	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_eus.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_eus.dir/depend
-	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_eus.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/edu/bibliotebot_burguer/build/CMakeFiles --progress-num= "Built target turtlebot3_msgs_generate_messages_eus"
-.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_eus.dir/all
-
-# Build rule for subdir invocation for target.
-turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_eus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
-.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-turtlebot3_msgs_generate_messages_eus: turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_eus.dir/rule
-
-.PHONY : turtlebot3_msgs_generate_messages_eus
-
-# clean rule for target.
-turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_eus.dir/clean:
-	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_eus.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_eus.dir/clean
-.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_eus.dir/clean
-
-# clean rule for target.
-clean: turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_eus.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir
-
-# All Build rule for target.
-turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/std_msgs_generate_messages_py.dir/all
-turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
-turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/std_msgs_generate_messages_eus.dir/all
-turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
-turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
-turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
-turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_nodejs.dir/all
-turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
-turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
-turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
-turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
-turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
-turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
-turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/roscpp_generate_messages_lisp.dir/all
-turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
-turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_lisp.dir/all
-turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/roscpp_generate_messages_py.dir/all
-turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
-turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/roscpp_generate_messages_eus.dir/all
-turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
-turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
-turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/roscpp_generate_messages_cpp.dir/all
-turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_py.dir/all
-turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
-turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
-turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/all
-turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/all
-turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/all
-turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
-turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
-turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
-turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/all
-turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_nodejs.dir/all
-turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_cpp.dir/all
-turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_eus.dir/all
-	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/depend
-	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/edu/bibliotebot_burguer/build/CMakeFiles --progress-num=14,15 "Built target turtlebot3_diagnostics"
-.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/all
-
-# Include target in all.
-all: turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/edu/bibliotebot_burguer/build/CMakeFiles 0
-.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/rule
-
-# Convenience name for target.
-turtlebot3_diagnostics: turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/rule
-
-.PHONY : turtlebot3_diagnostics
-
-# clean rule for target.
-turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/clean:
-	$(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/clean
-.PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/clean
-
-# clean rule for target.
-clean: turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/clean
 
 .PHONY : clean
 
@@ -1835,7 +1852,7 @@ clean: turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_genpy.dir/cle
 # Target rules for target turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_py.dir
 
 # All Build rule for target.
-turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_py.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/std_msgs_generate_messages_py.dir/all
+turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_py.dir/all: bibliotebot_vision/CMakeFiles/std_msgs_generate_messages_py.dir/all
 turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_py.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
 turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_py.dir/all: turtlebot3/turtlebot3_example/CMakeFiles/_turtlebot3_example_generate_messages_check_deps_Turtlebot3ActionFeedback.dir/all
 turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_py.dir/all: turtlebot3/turtlebot3_example/CMakeFiles/_turtlebot3_example_generate_messages_check_deps_Turtlebot3ActionGoal.dir/all
@@ -1908,7 +1925,7 @@ clean: turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_gennodejs.dir
 # Target rules for target turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_nodejs.dir
 
 # All Build rule for target.
-turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_nodejs.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
+turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_nodejs.dir/all: bibliotebot_vision/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
 turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_nodejs.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
 turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_nodejs.dir/all: turtlebot3/turtlebot3_example/CMakeFiles/_turtlebot3_example_generate_messages_check_deps_Turtlebot3ActionFeedback.dir/all
 turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_nodejs.dir/all: turtlebot3/turtlebot3_example/CMakeFiles/_turtlebot3_example_generate_messages_check_deps_Turtlebot3ActionGoal.dir/all
@@ -2045,7 +2062,7 @@ clean: turtlebot3/turtlebot3_example/CMakeFiles/_turtlebot3_example_generate_mes
 # Target rules for target turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_lisp.dir
 
 # All Build rule for target.
-turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_lisp.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_lisp.dir/all: bibliotebot_vision/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
 turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_lisp.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
 turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_lisp.dir/all: turtlebot3/turtlebot3_example/CMakeFiles/_turtlebot3_example_generate_messages_check_deps_Turtlebot3ActionFeedback.dir/all
 turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_lisp.dir/all: turtlebot3/turtlebot3_example/CMakeFiles/_turtlebot3_example_generate_messages_check_deps_Turtlebot3ActionGoal.dir/all
@@ -2150,7 +2167,7 @@ clean: turtlebot3/turtlebot3_example/CMakeFiles/tf_generate_messages_py.dir/clea
 # Target rules for target turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_cpp.dir
 
 # All Build rule for target.
-turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_cpp.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_cpp.dir/all: bibliotebot_vision/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
 turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_cpp.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
 turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_cpp.dir/all: turtlebot3/turtlebot3_example/CMakeFiles/_turtlebot3_example_generate_messages_check_deps_Turtlebot3ActionFeedback.dir/all
 turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_cpp.dir/all: turtlebot3/turtlebot3_example/CMakeFiles/_turtlebot3_example_generate_messages_check_deps_Turtlebot3ActionGoal.dir/all
@@ -3256,7 +3273,7 @@ clean: turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_mess
 # Target rules for target turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_eus.dir
 
 # All Build rule for target.
-turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_eus.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/std_msgs_generate_messages_eus.dir/all
+turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_eus.dir/all: bibliotebot_vision/CMakeFiles/std_msgs_generate_messages_eus.dir/all
 turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_eus.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
 turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_eus.dir/all: turtlebot3/turtlebot3_example/CMakeFiles/_turtlebot3_example_generate_messages_check_deps_Turtlebot3ActionFeedback.dir/all
 turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_eus.dir/all: turtlebot3/turtlebot3_example/CMakeFiles/_turtlebot3_example_generate_messages_check_deps_Turtlebot3ActionGoal.dir/all
@@ -3411,36 +3428,36 @@ turtlebot3_simulations/turtlebot3_fake/preinstall:
 # Target rules for target turtlebot3_simulations/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir
 
 # All Build rule for target.
-turtlebot3_simulations/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/std_msgs_generate_messages_py.dir/all
-turtlebot3_simulations/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
-turtlebot3_simulations/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/std_msgs_generate_messages_eus.dir/all
-turtlebot3_simulations/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
-turtlebot3_simulations/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
-turtlebot3_simulations/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+turtlebot3_simulations/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/all: bibliotebot_vision/CMakeFiles/roscpp_generate_messages_py.dir/all
+turtlebot3_simulations/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/all: bibliotebot_vision/CMakeFiles/roscpp_generate_messages_eus.dir/all
+turtlebot3_simulations/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/all: bibliotebot_vision/CMakeFiles/roscpp_generate_messages_lisp.dir/all
+turtlebot3_simulations/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/all: bibliotebot_vision/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+turtlebot3_simulations/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/all: bibliotebot_vision/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+turtlebot3_simulations/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/all: bibliotebot_vision/CMakeFiles/roscpp_generate_messages_cpp.dir/all
+turtlebot3_simulations/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/all: bibliotebot_vision/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
+turtlebot3_simulations/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/all: bibliotebot_vision/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+turtlebot3_simulations/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/all: bibliotebot_vision/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+turtlebot3_simulations/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/all: bibliotebot_vision/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
+turtlebot3_simulations/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/all: bibliotebot_vision/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+turtlebot3_simulations/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/all: bibliotebot_vision/CMakeFiles/std_msgs_generate_messages_eus.dir/all
+turtlebot3_simulations/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/all: bibliotebot_vision/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
+turtlebot3_simulations/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/all: bibliotebot_vision/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+turtlebot3_simulations/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/all: bibliotebot_vision/CMakeFiles/std_msgs_generate_messages_py.dir/all
 turtlebot3_simulations/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_nodejs.dir/all
-turtlebot3_simulations/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
-turtlebot3_simulations/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
-turtlebot3_simulations/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+turtlebot3_simulations/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_eus.dir/all
+turtlebot3_simulations/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+turtlebot3_simulations/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
+turtlebot3_simulations/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_py.dir/all
+turtlebot3_simulations/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
 turtlebot3_simulations/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
 turtlebot3_simulations/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
-turtlebot3_simulations/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
-turtlebot3_simulations/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/roscpp_generate_messages_lisp.dir/all
-turtlebot3_simulations/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
-turtlebot3_simulations/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_lisp.dir/all
-turtlebot3_simulations/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/roscpp_generate_messages_py.dir/all
-turtlebot3_simulations/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
-turtlebot3_simulations/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/roscpp_generate_messages_eus.dir/all
 turtlebot3_simulations/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
-turtlebot3_simulations/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
-turtlebot3_simulations/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/roscpp_generate_messages_cpp.dir/all
-turtlebot3_simulations/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_py.dir/all
-turtlebot3_simulations/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
+turtlebot3_simulations/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_lisp.dir/all
+turtlebot3_simulations/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
+turtlebot3_simulations/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
 turtlebot3_simulations/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
 turtlebot3_simulations/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
-turtlebot3_simulations/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
-turtlebot3_simulations/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
 turtlebot3_simulations/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_cpp.dir/all
-turtlebot3_simulations/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_eus.dir/all
 turtlebot3_simulations/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/all: turtlebot3/turtlebot3_example/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/all
 turtlebot3_simulations/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/all: turtlebot3/turtlebot3_example/CMakeFiles/tf_generate_messages_py.dir/all
 turtlebot3_simulations/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/all: turtlebot3/turtlebot3_example/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/all
@@ -3542,31 +3559,31 @@ turtlebot3_simulations/turtlebot3_gazebo/preinstall:
 # Target rules for target turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/turtlebot3_drive.dir
 
 # All Build rule for target.
-turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/turtlebot3_drive.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/std_msgs_generate_messages_py.dir/all
-turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/turtlebot3_drive.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
-turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/turtlebot3_drive.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/std_msgs_generate_messages_eus.dir/all
-turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/turtlebot3_drive.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
-turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/turtlebot3_drive.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
-turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/turtlebot3_drive.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
-turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/turtlebot3_drive.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
-turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/turtlebot3_drive.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
-turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/turtlebot3_drive.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/turtlebot3_drive.dir/all: bibliotebot_vision/CMakeFiles/roscpp_generate_messages_py.dir/all
+turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/turtlebot3_drive.dir/all: bibliotebot_vision/CMakeFiles/roscpp_generate_messages_eus.dir/all
+turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/turtlebot3_drive.dir/all: bibliotebot_vision/CMakeFiles/roscpp_generate_messages_lisp.dir/all
+turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/turtlebot3_drive.dir/all: bibliotebot_vision/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/turtlebot3_drive.dir/all: bibliotebot_vision/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/turtlebot3_drive.dir/all: bibliotebot_vision/CMakeFiles/roscpp_generate_messages_cpp.dir/all
+turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/turtlebot3_drive.dir/all: bibliotebot_vision/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
+turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/turtlebot3_drive.dir/all: bibliotebot_vision/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/turtlebot3_drive.dir/all: bibliotebot_vision/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/turtlebot3_drive.dir/all: bibliotebot_vision/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
+turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/turtlebot3_drive.dir/all: bibliotebot_vision/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/turtlebot3_drive.dir/all: bibliotebot_vision/CMakeFiles/std_msgs_generate_messages_eus.dir/all
+turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/turtlebot3_drive.dir/all: bibliotebot_vision/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
+turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/turtlebot3_drive.dir/all: bibliotebot_vision/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/turtlebot3_drive.dir/all: bibliotebot_vision/CMakeFiles/std_msgs_generate_messages_py.dir/all
+turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/turtlebot3_drive.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/turtlebot3_drive.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
+turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/turtlebot3_drive.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
 turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/turtlebot3_drive.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
 turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/turtlebot3_drive.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
-turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/turtlebot3_drive.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
-turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/turtlebot3_drive.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/roscpp_generate_messages_lisp.dir/all
-turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/turtlebot3_drive.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
-turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/turtlebot3_drive.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/roscpp_generate_messages_py.dir/all
-turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/turtlebot3_drive.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
-turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/turtlebot3_drive.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/roscpp_generate_messages_eus.dir/all
 turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/turtlebot3_drive.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
-turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/turtlebot3_drive.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
-turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/turtlebot3_drive.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/roscpp_generate_messages_cpp.dir/all
-turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/turtlebot3_drive.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
+turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/turtlebot3_drive.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
+turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/turtlebot3_drive.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
 turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/turtlebot3_drive.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
 turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/turtlebot3_drive.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
-turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/turtlebot3_drive.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
-turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/turtlebot3_drive.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
 turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/turtlebot3_drive.dir/all: turtlebot3/turtlebot3_example/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/all
 turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/turtlebot3_drive.dir/all: turtlebot3/turtlebot3_example/CMakeFiles/tf_generate_messages_py.dir/all
 turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/turtlebot3_drive.dir/all: turtlebot3/turtlebot3_example/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/all
@@ -4372,31 +4389,31 @@ turtlebot3/turtlebot3_slam/preinstall:
 # Target rules for target turtlebot3/turtlebot3_slam/CMakeFiles/flat_world_imu_node.dir
 
 # All Build rule for target.
-turtlebot3/turtlebot3_slam/CMakeFiles/flat_world_imu_node.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/std_msgs_generate_messages_py.dir/all
-turtlebot3/turtlebot3_slam/CMakeFiles/flat_world_imu_node.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
-turtlebot3/turtlebot3_slam/CMakeFiles/flat_world_imu_node.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/std_msgs_generate_messages_eus.dir/all
-turtlebot3/turtlebot3_slam/CMakeFiles/flat_world_imu_node.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
-turtlebot3/turtlebot3_slam/CMakeFiles/flat_world_imu_node.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
-turtlebot3/turtlebot3_slam/CMakeFiles/flat_world_imu_node.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
-turtlebot3/turtlebot3_slam/CMakeFiles/flat_world_imu_node.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
-turtlebot3/turtlebot3_slam/CMakeFiles/flat_world_imu_node.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
-turtlebot3/turtlebot3_slam/CMakeFiles/flat_world_imu_node.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+turtlebot3/turtlebot3_slam/CMakeFiles/flat_world_imu_node.dir/all: bibliotebot_vision/CMakeFiles/roscpp_generate_messages_py.dir/all
+turtlebot3/turtlebot3_slam/CMakeFiles/flat_world_imu_node.dir/all: bibliotebot_vision/CMakeFiles/roscpp_generate_messages_eus.dir/all
+turtlebot3/turtlebot3_slam/CMakeFiles/flat_world_imu_node.dir/all: bibliotebot_vision/CMakeFiles/roscpp_generate_messages_lisp.dir/all
+turtlebot3/turtlebot3_slam/CMakeFiles/flat_world_imu_node.dir/all: bibliotebot_vision/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+turtlebot3/turtlebot3_slam/CMakeFiles/flat_world_imu_node.dir/all: bibliotebot_vision/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+turtlebot3/turtlebot3_slam/CMakeFiles/flat_world_imu_node.dir/all: bibliotebot_vision/CMakeFiles/roscpp_generate_messages_cpp.dir/all
+turtlebot3/turtlebot3_slam/CMakeFiles/flat_world_imu_node.dir/all: bibliotebot_vision/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
+turtlebot3/turtlebot3_slam/CMakeFiles/flat_world_imu_node.dir/all: bibliotebot_vision/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+turtlebot3/turtlebot3_slam/CMakeFiles/flat_world_imu_node.dir/all: bibliotebot_vision/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+turtlebot3/turtlebot3_slam/CMakeFiles/flat_world_imu_node.dir/all: bibliotebot_vision/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
+turtlebot3/turtlebot3_slam/CMakeFiles/flat_world_imu_node.dir/all: bibliotebot_vision/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+turtlebot3/turtlebot3_slam/CMakeFiles/flat_world_imu_node.dir/all: bibliotebot_vision/CMakeFiles/std_msgs_generate_messages_eus.dir/all
+turtlebot3/turtlebot3_slam/CMakeFiles/flat_world_imu_node.dir/all: bibliotebot_vision/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
+turtlebot3/turtlebot3_slam/CMakeFiles/flat_world_imu_node.dir/all: bibliotebot_vision/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+turtlebot3/turtlebot3_slam/CMakeFiles/flat_world_imu_node.dir/all: bibliotebot_vision/CMakeFiles/std_msgs_generate_messages_py.dir/all
+turtlebot3/turtlebot3_slam/CMakeFiles/flat_world_imu_node.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+turtlebot3/turtlebot3_slam/CMakeFiles/flat_world_imu_node.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
+turtlebot3/turtlebot3_slam/CMakeFiles/flat_world_imu_node.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
 turtlebot3/turtlebot3_slam/CMakeFiles/flat_world_imu_node.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
 turtlebot3/turtlebot3_slam/CMakeFiles/flat_world_imu_node.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
-turtlebot3/turtlebot3_slam/CMakeFiles/flat_world_imu_node.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
-turtlebot3/turtlebot3_slam/CMakeFiles/flat_world_imu_node.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/roscpp_generate_messages_lisp.dir/all
-turtlebot3/turtlebot3_slam/CMakeFiles/flat_world_imu_node.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
-turtlebot3/turtlebot3_slam/CMakeFiles/flat_world_imu_node.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/roscpp_generate_messages_py.dir/all
-turtlebot3/turtlebot3_slam/CMakeFiles/flat_world_imu_node.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
-turtlebot3/turtlebot3_slam/CMakeFiles/flat_world_imu_node.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/roscpp_generate_messages_eus.dir/all
 turtlebot3/turtlebot3_slam/CMakeFiles/flat_world_imu_node.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
-turtlebot3/turtlebot3_slam/CMakeFiles/flat_world_imu_node.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
-turtlebot3/turtlebot3_slam/CMakeFiles/flat_world_imu_node.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/roscpp_generate_messages_cpp.dir/all
-turtlebot3/turtlebot3_slam/CMakeFiles/flat_world_imu_node.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
+turtlebot3/turtlebot3_slam/CMakeFiles/flat_world_imu_node.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
+turtlebot3/turtlebot3_slam/CMakeFiles/flat_world_imu_node.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
 turtlebot3/turtlebot3_slam/CMakeFiles/flat_world_imu_node.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
 turtlebot3/turtlebot3_slam/CMakeFiles/flat_world_imu_node.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
-turtlebot3/turtlebot3_slam/CMakeFiles/flat_world_imu_node.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
-turtlebot3/turtlebot3_slam/CMakeFiles/flat_world_imu_node.dir/all: turtlebot3/turtlebot3_bringup/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
 	$(MAKE) -f turtlebot3/turtlebot3_slam/CMakeFiles/flat_world_imu_node.dir/build.make turtlebot3/turtlebot3_slam/CMakeFiles/flat_world_imu_node.dir/depend
 	$(MAKE) -f turtlebot3/turtlebot3_slam/CMakeFiles/flat_world_imu_node.dir/build.make turtlebot3/turtlebot3_slam/CMakeFiles/flat_world_imu_node.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/edu/bibliotebot_burguer/build/CMakeFiles --progress-num=1,2 "Built target flat_world_imu_node"

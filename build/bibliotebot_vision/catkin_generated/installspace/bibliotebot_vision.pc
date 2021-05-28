@@ -1,0 +1,8 @@
+prefix=/home/edu/bibliotebot_burguer/install
+
+Name: bibliotebot_vision
+Description: Description of bibliotebot_vision
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
